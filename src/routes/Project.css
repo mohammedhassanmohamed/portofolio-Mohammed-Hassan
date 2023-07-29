@@ -1,0 +1,58 @@
+.projectfoto{
+    width: 400px;
+    height: 40vh;
+}
+#image-project{
+   
+
+position: relative;
+top: -70px;    
+float: right;
+left: -350px;
+}
+
+@media (max-width:1015px) { 
+
+    .projectfoto{
+        width: 200px;
+        height: 20vh;
+        margin-left: -1200px;
+        margin-top: -100px;
+    }
+
+
+}
+
+/* @media screen and (max-width: 900px) and (min-width: 600px) {} */
+
+@media (min-width:1015px) {
+    .projectfoto{
+        width: 300px;
+        height: 23vh;
+        margin-left: -520px;
+        margin-top: 20px;
+    }
+
+
+ }
+
+ @media (min-width:1200px) {
+    .projectfoto{
+        width: 400px;
+        height: 33vh;
+        margin-left: -80px;
+        margin-top: 20px;
+    }
+
+
+ }
+ @media (min-width:400px) {
+    .projectfoto{
+        width: 400px;
+        height: 33vh;
+        margin-left: -80px;
+        margin-top: 20px;
+    }
+
+
+ }
