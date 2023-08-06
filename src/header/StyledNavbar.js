@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./StyledNavbar.css";
 import { useState } from "react";
-
+import React from "react"
 const Navbar = () => {
   const [click, setclick] = useState(false);
 const[color,setcolor]=useState(false);
@@ -18,7 +18,7 @@ window.addEventListener("scroll",changecolor);
   const handlechange = () => setclick(!click);
 
   return (
-    <>
+    <div>
       <header className={color ? "header header-bg" : "header header"}>
         <Link to="/">
           <h1 className="portofolio">Portofolio</h1>
@@ -60,7 +60,7 @@ window.addEventListener("scroll",changecolor);
             viewBox="0 0 16 16"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M1 1.5a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 0-1h-13a.5.5 0 0 0-.5.5zm0 13a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 0-1h-13a.5.5 0 0 0-.5.5z"
             />
             <path d="M2 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7z" />
@@ -69,7 +69,7 @@ window.addEventListener("scroll",changecolor);
            
         </div>
       </header>
-    </>
+    </div>
   );
 };
 export default Navbar;

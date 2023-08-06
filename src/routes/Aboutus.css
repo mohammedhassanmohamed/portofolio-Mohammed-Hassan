@@ -1,10 +1,4 @@
-/* .my-personal-foto-div  {
-width: 200px;
-height: 400px;
-
-}
- */
-.personal-foto{
+.personal-foto {
     width: 300px;
     height: 300px;
     border-radius: 50% 50%;
@@ -14,24 +8,54 @@ height: 400px;
 
 
 
-@media (max-width:1200px) {
-    .personal-foto{
-        width: 300px;
-        height: 300px;
-        border-radius: 50% 50%;
-        margin-top: -100px;
-        margin-left: 0px;
-    }
-    
 
- }
-
- @media (max-width:1010px) {
-    .personal-foto{
+@media (max-width:400px) {
+    .personal-foto {
         width: 200px;
         height: 200px;
         border-radius: 50% 50%;
-        margin-top: -250px;
+        margin-top: -500px;
         margin-left: 0px;
     }
- }
+
+
+}
+
+@media (min-width:400px) and (max-width:800px) {
+    .personal-foto {
+        width: 200px;
+        height: 200px;
+        border-radius: 50% 50%;
+        margin-top: -400px;
+        margin-left: 0px;
+    }
+
+
+}
+
+@media (min-width:800px) and (max-width:1400px) {
+    .personal-foto {
+        width: 200px;
+        height: 200px;
+        border-radius: 50% 50%;
+        margin-top: -350px;
+        margin-left: 0px;
+    }
+
+
+}
+
+
+@media (min-width:1200px) {
+    .personal-foto {
+        width: 300px;
+        height: 300px;
+        border-radius: 50% 50%;
+        margin-top: -150px;
+
+        float: right;
+    }
+
+
+
+}

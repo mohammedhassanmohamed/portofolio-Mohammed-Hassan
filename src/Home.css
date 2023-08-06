@@ -27,7 +27,6 @@ img {
 
 .p-h1-twobtn {
     width: 30%;
-    /* z-index: 10000; */
     text-align: center;
     position: relative;
     font-size: 30px;
@@ -38,9 +37,7 @@ img {
 
 
 .two-button {
-    /* margin: 20px  20px; */
     padding: 10px 20px;
-    /* margin: 15px 15px; */
 }
 
 .btn-project {

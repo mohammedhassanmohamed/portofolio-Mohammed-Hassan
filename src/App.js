@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
 import StyleNavbar from "./header/StyledNavbar" 
 import Aboutus from "./routes/Aboutus";
 import Contact from "./routes/Contact";
 import Project from "./routes/Project";
 import Home from "./Home";
 import Footer from './Footer';
-import Imagedynamic from './Imagedynamic';
+import React from "react"
 function App() {
   return (
+    <div>
     <BrowserRouter>
       <StyleNavbar />
       <Routes>
@@ -19,6 +19,7 @@ function App() {
       </Routes>
       <Footer/>
     </BrowserRouter>
+    </div>
   );
 }
 
