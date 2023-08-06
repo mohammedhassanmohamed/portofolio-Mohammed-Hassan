@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portofolio-Mohammed-Hassan/static/css/main.393c4932.css",
+    "main.js": "/portofolio-Mohammed-Hassan/static/js/main.0cfc449b.js",
+    "static/media/2396-6.jpg": "/portofolio-Mohammed-Hassan/static/media/2396-6.e6e367a01bbb3ec5d588.jpg",
+    "static/media/intro-bg.jpg": "/portofolio-Mohammed-Hassan/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
+    "static/media/ma-pro.PNG": "/portofolio-Mohammed-Hassan/static/media/ma-pro.745b8aedb6131a883a9e.PNG",
+    "static/media/received_457698578514765.jpeg": "/portofolio-Mohammed-Hassan/static/media/received_457698578514765.1fe99e170e8df5294a73.jpeg",
+    "index.html": "/portofolio-Mohammed-Hassan/index.html",
+    "main.393c4932.css.map": "/portofolio-Mohammed-Hassan/static/css/main.393c4932.css.map",
+    "main.0cfc449b.js.map": "/portofolio-Mohammed-Hassan/static/js/main.0cfc449b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.393c4932.css",
+    "static/js/main.0cfc449b.js"
+  ]
+}
