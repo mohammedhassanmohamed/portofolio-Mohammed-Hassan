@@ -1,8 +1,6 @@
-import React from 'react'
-import "./Contact.css"
-import Imagedynamic from '../Imagedynamic';
-// import 'bootstrap/dist/css/bootstrap.css';
-import foto from "../assets/2396-6.jpg";
+import React from 'react';
+import "./Contact.css";
+
 
  const Contact = () => {
   return (
@@ -10,8 +8,7 @@ import foto from "../assets/2396-6.jpg";
    
 <div className="all-padge">
      
-{/* <img className="foto" src={foto} alt="project4.jpg" />
-        <div className="empty-background"></div> */}
+
        
  <div className="signupSection">
    <div className="info">
@@ -69,6 +66,9 @@ import foto from "../assets/2396-6.jpg";
             </h2>
           </div>
           <br></br>
+
+<div id="linked-facebook">
+
           <a href="https://www.facebook.com/hamada.hassan.1460" rel='noreferrer' target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -98,6 +98,8 @@ import foto from "../assets/2396-6.jpg";
           </svg>
 
           </a>
+          </div>
+
 
     </div>
     <div className='all-input'>

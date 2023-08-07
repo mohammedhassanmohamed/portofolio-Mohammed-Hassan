@@ -26,7 +26,7 @@ window.addEventListener("scroll",changecolor);
         <ul className={click?"nav-menu active":"nav-menu"}>
           {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
           <li className="text-decoration-none">
-            <Link to="/">Home</Link>
+            <Link to="/Home">Home</Link>
           </li>
           <li>
             <Link to="/Contact">Contact us</Link>
