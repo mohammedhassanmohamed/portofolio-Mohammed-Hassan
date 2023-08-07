@@ -4,10 +4,10 @@ import "./Home.css";
 import { Link, NavLink } from "react-router-dom";
 import Typed from "react-typed";
 export default function Home() {
-// const[stringy,setstringy] = useState(["hi im  mohammed hassan"])
 
 
-console.log(Typed);
+
+
 
   return (
     <>

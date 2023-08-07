@@ -1,8 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Contact.css";
 
 
+
+
  const Contact = () => {
+  
+  const[allinputs,setallinputs]=useState(
+    {text:"",
+    password:"",
+    email:"",
+    }
+    
+    )
+
+
+    const handlechange = (event) => {
+   
+      setallinputs(() => ({
+        ...allinputs,
+        [event.target.name]: event.target.value,
+      }))}
+
+
+const handleform = (e)=>{
+e.preventDefault()
+localStorage.setItem("formaaa", JSON.stringify(allinputs));
+}
+
   return (
     <>
    
@@ -16,7 +41,7 @@ import "./Contact.css";
     <i className="icon ion-ios-ionic-outline" aria-hidden="true"></i>
  
   </div> 
-  <form action="#" method="POST" className="signupForm" name="signupform">
+  <form onSubmit={handleform} action="#" method="POST" className="signupForm" name="signupform">
     
   <div className='all-icon'>
 
@@ -107,18 +132,18 @@ import "./Contact.css";
     <ul className="noBullet">
       <li>
         <label htmlFor="username"></label>
-        <input type="text" className="inputFields" id="username" name="username" placeholder="Username" value="" onInput="return userNameValidation(this.value)" required/>
+        <input onChange={handlechange} type="text" className="inputFields" id="username" name="text" placeholder="Username" value={allinputs.text} required/>
       </li>
       <li>
         <label htmlFor="password"></label>
-        <input type="password" className="inputFields" id="password" name="password" placeholder="Password" value="" onInput="return passwordValidation(this.value)" required/>
+        <input  onChange={handlechange} type="password" className="inputFields" id="password" name="password" placeholder="Password" value={allinputs.password}  required/>
       </li>
       <li>
         <label htmlFor="email"></label>
-        <input type="email" className="inputFields" id="email" name="email" placeholder="Email" value="" required/>
+        <input  onChange={handlechange} type="email" className="inputFields" id="email" name="email" placeholder="Email" value={allinputs.email} required/>
       </li>
       <li id="center-btn">
-        <input type="submit" id="join-btn" name="join" alt="Join" value="Join"/>
+        <input onClick={handleform} type="submit" id="join-btn" name="join" alt="Join" value="Join"/>
       </li>
     </ul>
     </div>
