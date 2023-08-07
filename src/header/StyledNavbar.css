@@ -54,7 +54,7 @@ header .portofolio {
     position: absolute;
     display: flex;
     flex-direction: column;
-    left: -90px;
+    left: -160px;
     top: 70px;
 
   }
@@ -67,7 +67,7 @@ header .portofolio {
     position: absolute;
     display: flex;
     flex-direction: column;
-    left: 30px;
+    left: 0px;
     z-index: 10;
     color: white;
     transition: 2s;
