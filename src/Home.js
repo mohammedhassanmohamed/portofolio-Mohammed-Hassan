@@ -3,16 +3,22 @@ import img1 from "./assets/intro-bg.jpg"
 import "./Home.css";
 import { Link, NavLink } from "react-router-dom";
 import Typed from "react-typed";
+
 export default function Home() {
 
 
+  useEffect(() => {
 
+
+  
+  }, [])
+  
 
 
   return (
     <>
 <div className="image-bg">
-<img  src={img1} alt= "intro-bg.jpg"/>
+<img  src={img1} alt= "intro"/>
 <div className="empty-background"></div>
 
 </div>
@@ -21,7 +27,7 @@ export default function Home() {
 
 <p className="para">
 <Typed
-strings={["hi im  mohammed hassan"]}
+strings={["hi im  Mohammed Hassan"]}
 typeSpeed={150}
 backSpeed={100}
 loop

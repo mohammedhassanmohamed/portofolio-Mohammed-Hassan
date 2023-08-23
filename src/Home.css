@@ -71,7 +71,7 @@ img {
     background-color: yellow;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
     .p-h1-twobtn {
         width: 60%;

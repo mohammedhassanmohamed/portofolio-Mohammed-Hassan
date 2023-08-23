@@ -1,5 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+.light{
+position: absolute;
+width: 20px;
+height: 100%;
 
+box-shadow: 30px 30px 30px rgb(170, 7, 7);
+background-color:rgba(0, 0, 0, 0.342);
+}
+.light-two{
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  text-shadow: 20px 20px 20px transparent;
+  box-shadow: 20px 20px 20px 50px rgb(170, 7, 7);
+  background-color:rgba(0, 0, 0, 0.226);
+right:0 ;
+
+}
 .signupSection {
 
 

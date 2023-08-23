@@ -30,7 +30,8 @@ localStorage.setItem("formaaa", JSON.stringify(allinputs));
 
   return (
     <>
-   
+   <div className="light"></div>
+   <div className="light-two"></div>
 <div className="all-padge">
      
 
